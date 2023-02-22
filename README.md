@@ -253,5 +253,17 @@ _Login to one of you cluster machine and run the below command_
 #### E. How to consume data from topic in kafka cluster
 
 ```
-/opt/kafka/bin/kafka-console-consumer.sh --topic demo --from-beginning ---bootstrap-server hostname1:9092,hostname2:9092,hostname3:9092
+/opt/kafka/bin/kafka-console-consumer.sh --topic demo --from-beginning --bootstrap-server hostname1:9092,hostname2:9092,hostname3:9092
+```
+
+#### F. How to check consumer groups in kafka cluster
+
+```
+/opt/kafka/bin/kafka-consumer-groups.sh  --list --bootstrap-server hostname1:9092,hostname2:9092,hostname3:9092
+```
+
+#### G. How to check group-topic LAG in kafka cluster
+
+```
+/opt/kafka/bin/kafka-run-class.sh kafka.admin.ConsumerGroupCommand --group <group_id> --describe --bootstrap-server hostname1:9092,hostname2:9092,hostname3:9092
 ```
