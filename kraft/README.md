@@ -1,4 +1,4 @@
-# Kafka Cluster with KRaft
+# Kafka KRaft cluster - High Availability
 
 _kafka [2.13-4.0.0] with 3 linux machines | choose higher version if you like_
 

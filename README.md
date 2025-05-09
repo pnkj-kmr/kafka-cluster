@@ -1,5 +1,7 @@
 # Kafka cluster with Zookeeper - High Availability
 
+###### Kafka KRaft cluster refer [here](./kraft/README.md)
+
 _kafka [2.13-3.0.1] with 3 linux machines | choose higher version if you like_
 
 ## kafka cluster - these setups help
