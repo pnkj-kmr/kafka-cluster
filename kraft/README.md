@@ -128,7 +128,7 @@ KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
   --add-scram 'SCRAM-SHA-512=[name="admin",password="admin@123"]'
 ```
 
-### 5. kafka connection
+### 4. kafka connection
 
 ---
 
